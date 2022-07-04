@@ -33,29 +33,26 @@ public class AllOpenPositionsPage extends BaseCommons {
         return this;
     }
 
-    public AllOpenPositionsPage checkJobList() throws InterruptedException {
-        Thread.sleep(2000);
+    public AllOpenPositionsPage checkJobList() {
         Assertions.assertTrue(contains(jobShowingLocator, "Showing"), "There is no job on these filters!");
         return this;
     }
 
     public AllOpenPositionsPage clickFilterLocationDropdown() throws InterruptedException {
         scroll(500);
-        Thread.sleep(1000);
+        Thread.sleep(1000); //Dynamic wait not working due to bug in chrome version 103. so i used this function.
         click(filterLocationDropdownLocator);
         return this;
     }
 
-    public AllOpenPositionsPage selectLocationForIstanbul() throws InterruptedException {
-        Thread.sleep(2000);
+    public AllOpenPositionsPage selectLocationForIstanbul(){
         selection(locationForExpectedLocator, "Istanbul, Turkey");
         click(filterLocationDropdownLocator);
         return this;
     }
 
-    public AllOpenPositionsPage selectDepartmentForQualityAssurance() throws InterruptedException {
+    public AllOpenPositionsPage selectDepartmentForQualityAssurance(){
         click(filterDepartmentDropdownLocator);
-        Thread.sleep(2000);
         selection(departmentForExpectedLocator, "Quality Assurance");
         click(filterDepartmentDropdownLocator);
         return this;
@@ -63,7 +60,7 @@ public class AllOpenPositionsPage extends BaseCommons {
 
     public LeverAppFormPage selectApplyNow() throws InterruptedException {
         scroll(500);
-        Thread.sleep(2000);
+        Thread.sleep(2000); //Dynamic wait not working due to bug in chrome version 103. so i used this function.
         hoverOver(jobPostingFrameLocator);
         click(applyNowButtonLocator);
         return new LeverAppFormPage();

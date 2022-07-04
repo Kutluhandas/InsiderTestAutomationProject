@@ -37,7 +37,7 @@ public class CareersPage extends BaseCommons {
     }
 
     public CareersPage clickSeeAllTeams() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(2000); //Dynamic wait not working due to bug in chrome version 103. so i used this function.
         clickElementWithJS((RemoteWebDriver) driver, seeAllTeamsButtonLocator);
         return this;
     }

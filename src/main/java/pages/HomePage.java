@@ -33,7 +33,7 @@ public class HomePage extends BaseCommons {
     }
 
     public CareersPage clickCareersButtonInMore() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(2000); //Dynamic wait not working due to bug in chrome version 103. so i used this function.
         click(careersButtonLocator);
         return new CareersPage();
     }

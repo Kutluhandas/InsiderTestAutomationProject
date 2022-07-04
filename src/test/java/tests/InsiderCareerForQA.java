@@ -10,7 +10,7 @@ public class InsiderCareerForQA extends BaseTest {
 
     /*
     The reason why I used some static waits;
-    Due to the current version of chrome, some parts of the project are giving errors despite the dynamic waits written.
+    Due to the current version of chrome(103), some parts of the project are giving errors despite the dynamic waits written.
     My research says that this problem will be fixed when the chrome version is updated.
     To solve this, static waits were added to some points of the project.
      */
