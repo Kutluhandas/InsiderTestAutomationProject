@@ -27,7 +27,7 @@ Go to project folder and simply run the following command on console;
 mvn -Dtest=InsiderCareerForQA -Dbrowser=chrome test
 
 
--Drowser can take the following parameters(but this test is more suitable for chrome):
+-Drowser can take the following parameters(but this test is more suitable for Google Chrome):
 
 
 *chrome
