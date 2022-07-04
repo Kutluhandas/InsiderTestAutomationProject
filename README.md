@@ -15,3 +15,19 @@ Junit Jupiter 5.7.0
 POM design pattern
 
 
+#Usage
+
+
+Go to project folder and simply run the following command on console.
+
+
+mvn -Dtest=InsiderCareerForQA -Dbrowser=chrome test
+
+
+browser can take the following values(but this test is more suitable for chrome):
+chrome
+firefox
+
+
+
+
