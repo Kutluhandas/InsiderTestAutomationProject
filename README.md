@@ -18,7 +18,7 @@ POM design pattern
 # Usage
 
 
-Go to project folder and simply run the following command on console.
+Go to project folder and simply run the following command on console;
 
 
 mvn -Dtest=InsiderCareerForQA -Dbrowser=chrome test
