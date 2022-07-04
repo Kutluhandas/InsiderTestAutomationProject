@@ -25,8 +25,12 @@ mvn -Dtest=InsiderCareerForQA -Dbrowser=chrome test
 
 
 browser can take the following values(but this test is more suitable for chrome):
-chrome
-firefox
+
+
+*"chrome"
+
+
+*"firefox"
 
 
 
