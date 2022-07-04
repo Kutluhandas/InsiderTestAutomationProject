@@ -1,5 +1,5 @@
 # InsiderTestAutomationProject
- This project automates the job application process for QA's on useinsider.com
+ This project automates the job application process for QA's on 'https://useinsider.com/'
  
 # Language and Frameworks
 
