@@ -12,6 +12,9 @@ Selenium WebDriver 3.141.59
 Junit Jupiter 5.7.0
 
 
+Bonigarcia WebDriverManager 4.4.3
+
+
 POM design pattern
 
 
