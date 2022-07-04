@@ -1,5 +1,5 @@
 # InsiderTestAutomationProject
- Automation via Selenium WebDriver
+ This project automates the job application process for QA's on useinsider.com
  
 # Language and Frameworks
 
