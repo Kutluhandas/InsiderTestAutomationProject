@@ -36,5 +36,8 @@ mvn -Dtest=InsiderCareerForQA -Dbrowser=chrome test
 *firefox
 
 
+If you want to run project manually, the variable named "browser" in the Basetest class can be used.
+
+
 
 
